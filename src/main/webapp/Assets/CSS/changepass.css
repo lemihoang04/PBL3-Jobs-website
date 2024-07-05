@@ -1,0 +1,337 @@
+.briefcase-1-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 40px;
+}
+.job-find {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 100px;
+}
+.briefcase-1-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 4px;
+}
+.caption {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-inter);
+  color: #0a65cc;
+  text-align: center;
+}
+.button,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--brands-secondary);
+  padding: var(--padding-3xs) 6px;
+  background-color: transparent;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button:hover {
+  background-color: rgba(179, 179, 219, 0.09);
+  border: 1px solid #b3b3db;
+  box-sizing: border-box;
+}
+.frame-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.change-password {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.5px;
+  line-height: 180%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.system-icon24pxpassword {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.password-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.old-password {
+  width: calc(100% - 34px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 36px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 180%;
+  text-align: left;
+  display: inline-block;
+  min-width: 300px;
+  max-width: 100%;
+  padding: 0;
+}
+.password-form1 {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-light);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 var(--padding-mini) var(--padding-3xs);
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.system-icon24pxpassword1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.system-icon24pxpassword-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.new-password {
+  width: calc(100% - 34px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 36px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 180%;
+  text-align: left;
+  display: inline-block;
+  min-width: 300px;
+  max-width: 100%;
+  padding: 0;
+}
+.password-form2 {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-light);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 var(--padding-mini) var(--padding-3xs);
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.system-icon24pxpassword2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.system-icon24pxpassword-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.confirm-password {
+  width: calc(100% - 34px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 36px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 180%;
+  text-align: left;
+  display: inline-block;
+  min-width: 300px;
+  max-width: 100%;
+  padding: 0;
+}
+.password-again-from {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-light);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) 0 var(--padding-mini) var(--padding-3xs);
+  gap: var(--gap-sm);
+}
+.password-again-from,
+.password-fields,
+.password-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.password-form {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+.password-fields {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+.comfirm {
+  position: relative;
+  display: inline-block;
+  min-width: 69px;
+}
+.sec1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--ios-blue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 13.5px var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--neutral-white);
+  font-family: var(--font-inter);
+}
+.company-reg,
+.sec,
+.settings-panel {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.sec {
+  width: 800px;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-5xl) 76px;
+  gap: 16.5px;
+  max-width: 100%;
+}
+.company-reg,
+.settings-panel {
+  text-align: left;
+}
+.settings-panel {
+  width: 1140px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: 40px;
+  color: #000;
+  font-family: var(--font-poppins);
+}
+.company-reg {
+  width: 100%;
+  position: relative;
+  background-color: var(--ios-bg);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 12px 11px 99px 30px;
+  gap: 37px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-5xl);
+  color: #1b1c22;
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .change-password {
+    font-size: 32px;
+    line-height: 58px;
+  }
+  .password-again-from,
+  .password-form1,
+  .password-form2 {
+    flex-wrap: wrap;
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .sec {
+    padding-top: var(--padding-xl);
+    padding-bottom: 49px;
+    box-sizing: border-box;
+  }
+  .company-reg {
+    gap: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .job-find {
+    font-size: 19px;
+    line-height: 32px;
+  }
+  .frame-parent {
+    flex-wrap: wrap;
+  }
+  .change-password {
+    font-size: var(--font-size-5xl);
+    line-height: 43px;
+  }
+  .confirm-password,
+  .new-password,
+  .old-password {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+}

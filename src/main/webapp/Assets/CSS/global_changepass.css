@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --ios-bg: rgba(249, 249, 249, 0.8);
+  --neutral-white: #fff;
+  --ios-blue: #007aff;
+  --neutral-light: #ebf0ff;
+  --neutral-grey: #9098b1;
+  --brands-secondary: #cbcbf5;
+
+  /* Gaps */
+  --gap-sm: 14px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-mini: 15px;
+  --padding-3xs: 10px;
+  --padding-7xs-5: 5.5px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-8xs: 5px;
+}
